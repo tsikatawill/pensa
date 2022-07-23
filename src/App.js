@@ -1,10 +1,9 @@
+import Header from './components/Header'
+
 export default function App() {
     return (
         <div className="App">
-            <header>
-                <nav className="navbar"></nav>
-                <section className="hero"></section>
-            </header>
+            <Header />
             <main>
                 <section className="about" id="about"></section>
                 <section className="officers" id="officers"></section>

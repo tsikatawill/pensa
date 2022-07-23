@@ -1,0 +1,11 @@
+nav.navbar a {
+    @apply border-b-2 border-b-transparent duration-150 ease-in hover:border-b-white focus:border-b-white p-1;
+}
+
+nav.navbar {
+    @apply text-sm;
+}
+
+nav.navbar .btn {
+    @apply text-xs;
+}
