@@ -1,0 +1,27 @@
+.event-card {
+    @apply bg-white rounded-lg min-w-fit max-w-3xl mx-auto p-6 relative;
+}
+
+.event-card .date {
+    @apply bg-primary h-11 w-11 grid place-content-center absolute -top-5 left-5 rounded-full text-sm;
+}
+
+.event-card .detail p {
+    @apply font-bold text-black;
+}
+
+.event-card .details {
+    @apply flex justify-between;
+}
+
+.event-card .detail {
+    @apply text-left px-10;
+}
+
+.event-card .link {
+    @apply grid place-content-center;
+}
+
+.event-card .time {
+    @apply border-x border-slate-300;
+}
