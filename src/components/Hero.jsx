@@ -1,11 +1,13 @@
 import EventCard from './EventCard'
 import { FaArrowRight } from 'react-icons/fa'
+import styles from './Hero.module.css'
 
 export default function Hero() {
     return (
         <div className="hero h-full relative">
             <div className="container flex flex-col items-center justify-center h-[400px] text-center gap-5">
-                <h1 className="text-3xl md:text-6xl max-w-2xl leading-[3.5rem]">
+                <h1
+                    className={`${styles.headText} text-3xl md:text-6xl max-w-2xl leading-[3.5rem]`}>
                     All you need is Living Worship
                 </h1>
 

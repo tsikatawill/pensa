@@ -1,0 +1,8 @@
+@font-face {
+    font-family: RozhaOne;
+    src: url(../fonts/RozhaOne.otf);
+}
+
+.headText {
+    font-family: RozhaOne;
+}
