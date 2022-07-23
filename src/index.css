@@ -28,7 +28,3 @@ body {
 .btn-tertiary {
     @apply border-2 border-white text-white bg-none;
 }
-
-a {
-    @apply text-white;
-}
