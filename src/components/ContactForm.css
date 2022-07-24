@@ -1,0 +1,25 @@
+form.contact-form {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10;
+}
+
+form.contact-form .input-group {
+    @apply flex flex-col gap-3 w-full;
+}
+
+form.contact-form .input-group.fullname,
+form.contact-form .input-group.email {
+    @apply col-span-2 sm:col-span-1;
+}
+
+form.contact-form .input-group.message {
+    @apply col-span-2;
+}
+
+form.contact-form input,
+form.contact-form textarea {
+    @apply p-2 border border-gray-500 rounded-md;
+}
+
+form.contact-form button {
+    @apply w-full sm:w-56 col-span-2 rounded-md;
+}
