@@ -11,22 +11,22 @@ export default function Navbar() {
 
                 <ul className="flex gap-5">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="#">About Us</a>
+                        <a href="/#about">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Registration</a>
+                        <a href="/#about">Registration</a>
                     </li>
                     <li>
-                        <a href="#">Departments</a>
+                        <a href="/#officers">Departments</a>
                     </li>
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="/#officers">Gallery</a>
                     </li>
                     <li>
-                        <a href="#">News/Events</a>
+                        <a href="/#blog-posts">News/Events</a>
                     </li>
                 </ul>
                 <button className="btn btn-tertiary">donate</button>
