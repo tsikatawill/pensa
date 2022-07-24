@@ -9,6 +9,7 @@ export default function BlogpostsSection() {
     return (
         <section
             className="spacey blog-posts"
+            id="blog-posts"
             style={{
                 background: `linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url(${SectionBg}) center center/cover no-repeat`
             }}>
