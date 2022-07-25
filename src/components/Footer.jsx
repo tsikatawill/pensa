@@ -53,9 +53,7 @@ export default function Footer() {
                 <div className="contact">
                     <h2 className="text-xl font-bold mb-10">Contact Us</h2>
                     <div className="flex flex-col gap-5">
-                        <a
-                            href="https://google.com/?q='Pensa-PU location in Ghana'"
-                            className="flex items-center gap-2">
+                        <a href="https://google.com/Pensa-PU" className="flex items-center gap-2">
                             <FaLocationArrow /> P.O. Box KN 1739, Kaneshie Accra
                         </a>
 
