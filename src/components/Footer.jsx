@@ -69,8 +69,10 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="sub-footer border-t-2 border-slate-400 col-span-full mt-10 pt-5 flex justify-between">
-                    <p className="rights">&copy; {date} pensa-pu. All Rights Reserved</p>
+                <div className="sub-footer border-t-2 border-slate-400 col-span-full mt-10 pt-6 sm:flex sm:gap-0 justify-between">
+                    <p className="rights mb-5 sm:mb-0">
+                        &copy; {date} pensa-pu. All Rights Reserved
+                    </p>
                     <p>Designed and Developed by PENSA DEV TEAM</p>
                 </div>
             </div>
