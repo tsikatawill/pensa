@@ -1,5 +1,5 @@
 .event-card {
-    @apply bg-white rounded-lg min-w-fit max-w-3xl mx-auto p-6 relative shadow-lg shadow-slate-500;
+    @apply bg-white hidden sm:block rounded-lg min-w-fit max-w-3xl mx-auto p-6 relative shadow-lg shadow-slate-500;
 }
 
 .event-card .date {
