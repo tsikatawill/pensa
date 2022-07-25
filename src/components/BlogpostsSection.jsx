@@ -11,7 +11,7 @@ export default function BlogpostsSection() {
             className="spacey blog-posts"
             id="blog-posts"
             style={{
-                background: `linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url(${SectionBg}) center center/cover no-repeat`
+                background: `linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(${SectionBg}) center center/cover no-repeat`
             }}>
             <div className="container">
                 <div className="head flex flex-col items-center justify-center">
