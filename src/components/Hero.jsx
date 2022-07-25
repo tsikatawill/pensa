@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero h-full relative">
             <div className="container flex flex-col items-center justify-center h-[400px] text-center gap-5">
                 <h1
-                    className={`${styles.headText} text-3xl md:text-6xl max-w-2xl leading-[3.5rem]`}>
+                    className={`${styles.headText} text-5xl md:text-6xl max-w-2xl leading-[3.5rem]`}>
                     All you need is Living Worship
                 </h1>
 
