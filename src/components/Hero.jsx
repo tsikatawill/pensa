@@ -31,7 +31,12 @@ export default function Hero() {
                 </div>
 
                 <div className="absolute bottom-5 w-screen overflow-x-scroll py-5 scroll-smooth">
-                    <EventCard date={{ day: '23', month: 'Jul' }} />
+                    <EventCard
+                        date={{ day: '23', month: 'Jul' }}
+                        event="Youth Meeting"
+                        location="Tesano, Accra"
+                        time="4:00pm"
+                    />
                 </div>
             </div>
         </div>
