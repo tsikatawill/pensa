@@ -7,7 +7,7 @@ export default function AboutSection() {
             className="about spacey"
             id="about"
             style={{
-                background: `linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url(${Aboutbg}) center center/cover no-repeat`
+                background: `linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(${Aboutbg}) center center/cover no-repeat`
             }}>
             <div className="container flex flex-col md:flex-row gap-10 md:gap-20 items-center">
                 <div className="image-wrapper flex-1 relative">
@@ -17,7 +17,7 @@ export default function AboutSection() {
                         className="h-[28rem] w-96 object-cover rounded-lg z-30 absolute"
                     />
 
-                    <div className="shadow h-[28rem] w-96 bg-slate-300 rounded-lg z-20 translate-y-8 -translate-x-8"></div>
+                    <div className="shadow h-[28rem] w-96 bg-slate-300 rounded-lg z-20 translate-y-4 -translate-x-4 md:translate-y-8 md:-translate-x-8"></div>
                 </div>
 
                 <div className="text-wrapper flex-1">
